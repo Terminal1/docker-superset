@@ -27,6 +27,7 @@ RUN adduser -S -H superset && \
     pip3 install --no-cache-dir --no-build-isolation \
         gevent==1.2.2 \
         psycopg2==2.7.4 \
+        redis==2.10.6 \
         superset==${SUPERSET_VERSION} && \
     apk del .meta-build-dependencies && \
     find / -type d -name __pycache__ -exec rm -r {} + && \
