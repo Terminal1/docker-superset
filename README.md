@@ -1,6 +1,8 @@
 # Docker container for Apache Superset
 
 [![](https://images.microbadger.com/badges/image/terminal1/superset.svg)](https://hub.docker.com/r/terminal1/superset/)
+![Docker Automated build](https://img.shields.io/docker/automated/terminal1/superset.svg)
+
 
 * Alpine container based [Apache Superset](https://superset.apache.org/) container
 * Has PostgreSQL and Redis backends pre-installed
